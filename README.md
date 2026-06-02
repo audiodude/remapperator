@@ -2,6 +2,10 @@
 
 A Max for Live MIDI effect that remaps incoming notes to a chromatic sequence in **order of first appearance**.
 
+Why? Because then you can take a melody and "assign" each note to a drum in a drum pad of course!
+
+TBD: YouTube demo video.
+
 - The first distinct note you play maps to **C1**, the next to **C#1**, then **D1**, and so on up by semitone.
 - Mappings are **sticky**: once a note is assigned, it always fires the same output.
 - Chords map per-note, so an N-note chord becomes an N-semitone cluster.
